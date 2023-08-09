@@ -9,6 +9,7 @@ body {
     background-image: url("./assests/BG.png");
     background-repeat: no-repeat;
     overflow-x: hidden;
+    box-sizing: border-box;
 
 }
 
@@ -131,7 +132,9 @@ body {
     box-shadow: -21.46666717529297px 21.46666717529297px 21.46666717529297px 0px rgba(255, 255, 255, 0.10) inset, 21.46666717529297px -21.46666717529297px 21.46666717529297px 0px rgba(149, 149, 149, 0.10) inset;
     backdrop-filter: blur(21.46666717529297px);
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    padding: 47px 31px;
+    box-sizing: border-box;
     /* justify-content: center; */
     align-items: center;
 }
@@ -754,7 +757,7 @@ h5 {
 /* navbar */
 .navbar-down {
     background-image: url(./assests/BG.jpg);
-    margin-top: 97px; 
+    margin-top: 97px;
     padding: 97px 100px 40px 200px;
     height: 356px;
     display: flex;
@@ -770,17 +773,19 @@ h5 {
     flex-direction: column;
     gap: 20px;
 }
-.navbar-text-box{
+
+.navbar-text-box {
     display: flex;
 
 }
-li{
-    color:  #676767;
-font-family: Nunito;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
+
+li {
+    color: #676767;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .h-navbar-down {
@@ -793,7 +798,8 @@ line-height: 30px;
     font-weight: 600;
     line-height: 30px;
 }
-.icion-navbar{
+
+.icion-navbar {
     color: #00730C;
     margin-right: 10px;
 }
@@ -833,52 +839,57 @@ ul {
     width: 177px;
     height: 254px;
 }
-.about-us{
+
+.about-us {
     margin-right: 30px;
 }
+
 /* .last { */
-    /* width: 1320px;
+/* width: 1320px;
     height: 100px;
     background-color: #00730C;
     padding-left: 24px;
     display: flow-root; */
 
-.newsletter-place{
+.newsletter-place {
     width: 295px;
     height: 29px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-padding: 4px 5px;
-border-radius: 5px;
-background: #FFF;
+    padding: 4px 5px;
+    border-radius: 5px;
+    background: #FFF;
 }
-.last-btn{
+
+.last-btn {
     width: 90px;
     height: 29px;
     display: flex;
-padding: 2px 14px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 5px;
-background:  #00730C;
-border: 0px;
-color: #FFF;
-font-family: Nunito;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
+    padding: 2px 14px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00730C;
+    border: 0px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
 }
+
 h4 {
     padding-bottom: 50px;
 }
-.hr{
+
+.hr {
     margin-bottom: 0px;
     margin-top: 40px;
     width: 1050px;
     margin-left: 0px;
     margin-right: 0px;
-height: 1px;
-background:  #212529;
+    height: 1px;
+    background: #212529;
 }
